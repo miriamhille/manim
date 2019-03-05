@@ -343,6 +343,3 @@ class OutlineableBars(VGroup):
 
 
 
-
-
-
