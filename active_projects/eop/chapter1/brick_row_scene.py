@@ -218,7 +218,7 @@ class BrickRowScene(PiCreatureScene):
         
 
     def construct(self):
-        self.force_skipping()
+        #self.force_skipping()
         
         randy = self.get_primary_pi_creature()
         randy = randy.scale(0.5).move_to(3*DOWN + 6*LEFT)
@@ -226,10 +226,18 @@ class BrickRowScene(PiCreatureScene):
         self.row = BrickRow(0, height = 2, width = 10)
         self.wait()
 
-        self.play(FadeIn(self.row))
+        brace = Brace(self.row, UP)
+        area_text = TextMobject("Area = 1").next_to(brace, UP)
 
+        self.play(
+            FadeIn(self.row)
+        )
+
+        self.play(
+            GrowFromCenter(brace),
+            Write(area_text)
+        )
         self.wait()
-
 
         # move in all kinds of sequences
         coin_seqs = VGroup()
@@ -252,6 +260,11 @@ class BrickRowScene(PiCreatureScene):
                 lag_ratio = 0.5
             )
         )
+
+
+        self.play(FadeOut(brace), FadeOut(area_text))
+
+        return
         
         # # # # # # # #
         # FIRST  FLIP #
@@ -986,6 +999,17 @@ class ShowProbsInBrickRow3(BrickRowScene):
 
 
 
+class JustRandyFlippingInCorner(BrickRowScene):
+
+    def construct(self):
+
+        randy = self.get_primary_pi_creature()
+        randy = randy.scale(0.5).move_to(3*DOWN + 6*LEFT)
+        randy.look_at(ORIGIN)
+        self.wait()
+        self.play(FlipCoin(randy))
+        self.wait()
+
 
 class ShowOutcomesInBrickRow4(BrickRowScene):
 
@@ -1172,4 +1196,60 @@ class SplitTalliesIntoBrickRow4(BrickRowScene):
 
 
 
+
+class ShowBrickRow20(Scene):
+
+    def construct(self):
+
+        n = 20
+        row = BrickRow(n)
+        self.add(row)
+        text_scale = 0.5
+
+        # draw indices under the last row for the number of tails
+        tails_counters = VGroup()
+        area_labels = VGroup()
+        for (i, rect) in enumerate(row.rects):
+            
+            if i < 6 or i > 14:
+                continue
+            
+            if i == 6:
+            
+                counter = TexMobject("\dots", color = COLOR_TAILS)
+                counter.next_to(rect, DOWN, buff = 1.5 * MED_SMALL_BUFF)
+                tails_counters.add(counter)
+                
+                brick_label = TexMobject("\dots", color = BLACK)
+                brick_label.move_to(rect).scale(text_scale)
+                area_labels.add(brick_label)
+            
+            elif i == 14:
+            
+                counter = TexMobject("\dots", color = COLOR_TAILS)
+                counter.next_to(rect, DOWN, buff = 1.5 * MED_SMALL_BUFF)
+                counter.shift(0.2 * RIGHT)
+                tails_counters.add(counter)
+                
+                brick_label = TexMobject("\dots", color = BLACK)
+                brick_label.move_to(rect).scale(text_scale)
+                area_labels.add(brick_label)
+            
+            else:
+            
+                counter = Integer(i, color = COLOR_TAILS)
+                counter.next_to(rect, DOWN)
+                tails_counters.add(counter)
+                
+                prob_percentage = float(choose(n, i)) / 2**n * 100
+                brick_label = DecimalNumber(prob_percentage,
+                    unit = "\%", num_decimal_places = 1, color = BLACK)
+                brick_label.move_to(rect).scale(text_scale)
+                area_labels.add(brick_label)
+
+
+        nb_tails_text = TextMobject("\# of tails", color = COLOR_TAILS)
+        nb_tails_text.next_to(tails_counters[-1], RIGHT, buff = MED_LARGE_BUFF)
+
+        self.add(tails_counters, nb_tails_text, area_labels)
 
