@@ -26,5 +26,5 @@ class Sounds(Scene):
 
 if __name__ == "__main__":
     module_name = os.path.basename(__file__)
-    command = "python3.7 -m manim  -pl  -a --leave_progress_bars " + module_name
+    command = "python3.7 -m manim  -p -c '#2B2B2B'  -a  " + module_name
     os.system(command)
