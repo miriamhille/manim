@@ -75,7 +75,7 @@ class Histogram(VMobject):
 
 
 
-    def generate_points(self):
+    def init_colors(self):
 
         self.process_values()
         for submob in self.submobjects:
