@@ -7,10 +7,11 @@ from active_projects.eop.reusables.histograms import *
 
 
 class MinimalHist(Scene):
+
     def construct(self):
         Circle()
-        values= [1,1,1,1,0,0,0,0,5,5,8,9]
-        max=2
+        values= [1,1,1,1,0,0,0,0,5,5,8,9,23,3,3,3,23,235,234,2,1,212,12,3,255]
+        max=256
         val = np.histogram(values, bins=[i for i in np.arange(0, max+1)])
 
         hist= Image_Histogram(val[1], val[0], x_scale= 4/max)
@@ -19,5 +20,5 @@ class MinimalHist(Scene):
 
 if __name__ == "__main__":
     module_name = os.path.basename(__file__)
-    command = "python3.7 -m manim  -a -p -s  " + module_name
+    command = "python3.7 -m manim  -a -c '#2B2B2B' -p -s  " + module_name
     os.system(command)

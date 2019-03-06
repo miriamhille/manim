@@ -307,8 +307,9 @@ class FlashThroughHistogram(Animation):
 
 class Image_Histogram(Histogram):
     CONFIG = {
-        "start_color": BLACK,
-        "end_color": WHITE,
+        "bar_stroke_width": 0,
+        "start_color": DRAC_YELLOW,
+        "end_color": DRAC_ORANGE,
     }
     def __init__(self, x_values, y_values, **kwargs):
         Histogram.__init__(self,x_values, y_values, mode = "posts",
