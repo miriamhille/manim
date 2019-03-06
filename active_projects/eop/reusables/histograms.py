@@ -87,6 +87,18 @@ class Histogram(VMobject):
                 arr.append("")
             return arr
 
+        def min_and_max_string_array(n):
+            arr = []
+            for i in range(n):
+                # print(i)
+                if (i== 0) or  (i==n-1):
+                    print("yes")
+                    arr.append(str(i))
+                else:
+                    arr.append("")
+            print(arr)
+            return arr
+
         def num_arr_to_string_arr(arr): # converts number array to string array
             ret_arr = []
             for x in arr:
@@ -111,6 +123,8 @@ class Histogram(VMobject):
             self.x_labels = num_arr_to_string_arr(self.x_mids)
         elif self.x_labels == "none":
             self.x_labels = empty_string_array(len(self.widths))
+        elif self.x_labels == "min_max":
+            self.x_labels = min_and_max_string_array(len(self.widths))
 
         if self.y_labels == "auto":
             self.y_labels = num_arr_to_string_arr(self.y_values)
@@ -290,6 +304,16 @@ class FlashThroughHistogram(Animation):
                 scene.add(self.prototype_cell)
         return self
 
+
+class Image_Histogram(Histogram):
+    CONFIG = {
+        "start_color": BLACK,
+        "end_color": WHITE,
+    }
+    def __init__(self, x_values, y_values, **kwargs):
+        Histogram.__init__(self,x_values, y_values, mode = "posts",
+                           x_labels= "min_max", y_labels= "none",
+                           **kwargs)
 
 
 class OutlineableBars(VGroup):

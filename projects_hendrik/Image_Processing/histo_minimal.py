@@ -2,16 +2,18 @@ from big_ol_pile_of_manim_imports import *
 import numpy as np
 from active_projects.eop.reusables.histograms import *
 ##Histogram like this:
-## 0   2    2     1
-#0   1    2    3    4
+## 0   2    2     1 ....
+#0   1    2    3    4 ...... 255...  256
 
 
 class MinimalHist(Scene):
     def construct(self):
+        Circle()
+        values= [1,1,1,1,0,0,0,0,5,5,8,9]
+        max=2
+        val = np.histogram(values, bins=[i for i in np.arange(0, max+1)])
 
-        values= [1,2,2,1,3]
-        val = np.histogram(values, bins=[i for i in np.arange(0, 10)])
-        hist= Histogram(val[1],val[0], mode= "posts")
+        hist= Image_Histogram(val[1], val[0], x_scale= 4/max)
         self.add(hist)
         self.wait(0.2)
 
