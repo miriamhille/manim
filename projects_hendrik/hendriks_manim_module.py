@@ -1,6 +1,7 @@
 #for later
-
+import os
 class hendriks_manim_module:
+
     def circ(img, rad):
         n, m = np.shape(img)
         for j in range(0, n):
@@ -26,3 +27,12 @@ class hendriks_manim_module:
         m = image.min()
         stretched_img = (256 - 1) / (M - m) * (image - m)
         return np.uint8(stretched_img)
+
+    def get_piano_sounds():
+        piano_folder = "/home/jan-hendrik/python/projects/manim-new/projects_hendrik/small_piano/"
+        all_files = []
+        for (piano_folder, dirnames, filenames) in os.walk(piano_folder):
+            for f in filenames:
+                all_files.append(os.path.join(f))
+        sounds = {str(element[4:-4]): piano_folder + str(element) for element in all_files}
+        return sounds
