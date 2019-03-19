@@ -3,11 +3,7 @@ from active_projects.eop.reusable_imports import *
 from coins_in_array import *
 class Images(Scene):
     def construct(self):
-
-
         # print()
-
-
         ###Histogram poisson
         # val = []
         # for i in range(0,3):
