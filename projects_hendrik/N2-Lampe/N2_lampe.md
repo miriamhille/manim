@@ -2,14 +2,22 @@
 
 ## Experiment
 
-1. Nicht zerstörte Glübirne zeigen
-2. Licht an-->  Zerstört in Luft
-3. Zerstört in flüssigem Stickstoff
-4. Rausziehen (Sticksoffgas)
+1. Zwei Lampen in ein Statif einspannen, eine Glühdraht, andere LED
+2.  seperat vor schwarzen Schirm stellen, Licht an
+    1.  Glühlampe zerstören
+    2.  LED zerstören
+3. Zwei kleine Glühlampen zerstörten
+4. Lampen: eine in Luft, andere in Stickstoff, anschalten, Rausziehen (Sticksoffgas)
 5. Weiter Rausziehen -> Durchbrenneffekt
+6. LED und andere in Wärmebildkamera
 
+## Materialien für das Experiment
+1. LED Lampe, Glühlampe, Statif, Transformator, Schwarze Wand,
+   Kamera, Stativ, Wärmebildkamera, Wärmebildkamerastatif,
+2. Dremel, Akkuschrauber, Schutzsachen
+3. 2 kleine Glühlampen, Schraubstock, 2 Kameras (damit keine Verschiebung) im Raum wo der Schraubstock ist, gutes Mikrofon für den Knack
+4.  Stickstoff, Behälter, Lampenstatativ, Bindfadenstativ, Schalter der zwei Schaltkreise gleichzeitig startet, zwei Trafos (vorher TESTEN!) nur eine Kamera+Stativ
 
-6. Alltagsbezug: Warum brennt der Toaster nicht durch?
 
 ## Theorie (Skizze)
 
@@ -24,7 +32,7 @@
 1. `Aufmacher`: Zwei Glühlamben: 
 eine LED- Lampe; eine Glühdrathtlampe
     * Beide in Zeitlupe syncron kaputt machen.
-    **Dramatische Musik, einige Sekunden in Zeitlupe**
+    **Dramatische Musik, einige Sekunden in Zeitlupe mit Kamera1**
  ---    
 2. `Infoblock`
 Frage: warum geht die eine kaputt, und die andere leuchtet immernoch? **ani:text wird mit 90% opacity über das zeitlupevideo gelegt**
@@ -58,22 +66,73 @@ Hier treffen wir Dr. Sabine Steil. Mit ihrer Arbeitsgruppe forscht sie an der En
 * **Die heile aus dem Fülssigen Stickstoff ziehen, bis zum Gas** *Wie erwartet brennt der Glühdraht an Luft durch, aber wir sehen, dass der Draht im flüssigen Stickstoff weiter leuchtet. Auch wenn wir im Stickstoffgas sind, können wir weiter das Leuchten sehen.*
 * **Nun: Messen mit Sauerstoffmessergerät, erst an Luft, dann in der Stickstoffatmosphäre, anim: Sauerstoffgehalt über Zeit** 
 ---
-1. `O-Töne`
+1. `O-Töne 2`
 * Sabine Steil:
     * Warum brennt die Birne durch bei Sauerstoff?
     * Warum nicht in Stickstoff? -> wegen Schutzgas
-    
+---
+1 `Infoblock 2`
+ *Kurück zur LED Lampe*
+* **Zerschlagen des Glases von LED Lampe**
+* Warum leuchtet diese Lampe immernoch?    
+ Hier wird das Licht nicht durch Glühemission, sondern über einen anderen effekt erzeugt, der nichts mit wärme zu tun hat. #### dies sieht man auch daran, wenn man  
+ * **Kamera2: Gleichzeitiges Filmen mit einer Wärmebild kamera und des Experimentes.**
+ * 
+ 
+ ---
+ 1. Fazit 
+ Ausblick: LEDs sind viel Energiesparender. 
+ 
+ 
     
 
 ##TODO
-* Rausfinden, ob es noch Glübirnen zu kaufen gibt.
-* Luftpistole?
-* Statif, sockel für Glübirne
-* Sauerstoffmessgerät orgnaisieren (Sammlung? Wenderot gruppe?)
+* Tobias: Wärmebildkamera Wenderoth organisieren.
+* Organisieren: zweiter Sockel für den Glühdraht
+* Skripte schreiben
+* Filmen 
+* Schneiden
+* Schwarze Box organisieren
+* Fr: 
+    * Sabine reden
+* Sa: 
+    * Schnitte überlegen
+*  Mo: 
+    * Material besorgen  
+    * Experiment aufbauen und filmen
+* Jeder liest die Theorie für sich selber, besprechen Mo oder Di
+* Di:
+    * Anfangen mit zusammenschneiden
+* Mi: 
+    * Interview
+* Do: 
+    * 
+
+## In Porgress:
+* Holger (aus der Sammlung) besorgt die LED 
+* Holger besorgt den Dremel zum Aufschneiden der Glühbirnen
 
 
+## Halbausgereifte Ideen
+* Banner für Lampe oben rechts, einmal Grühdraht, einmal LED.
+* Quellenangaben unten rechts ins Video einbringen.
 
+## Vokabeln für das Video:
+Photon -> muss erklärt werden
 
+## Fragen an Sabine:
 
-
-
+## Teil 1:
+* Warum leuchtet die Glühbirne?
+    * Im groben: Die Lampe leuchtet des ###   Gesetzes, dies besagt ###
+    * Alles was warm ist, strahlt auch Licht ab.
+    **Kameraeinstellung: Sabine sitzt rechts,
+      damit links Platz für Bilder ist**
+        * Herdplatte (**Bild zeigen**)
+        * Sonne (**Bild zeigen**)
+        * Glühlampe (**Bild zeigen**)
+        
+        
+## Teil 2:
+* Warum brennt die Birne durch bei Sauerstoff?
+* Warum nicht in Stickstoff? -> wegen Schutzgas
