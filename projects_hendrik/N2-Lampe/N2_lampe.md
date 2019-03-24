@@ -21,11 +21,11 @@
 
 ## Theorie (Skizze)
 
-1. Phtonon Emisson auf Grund von Elektronenbewegungen im Draht #warum?
+1. Phtonon Emisson auf Grund von Elektronenbewegungen im Draht #warum? ##Glühdraht hoher Widerstand -> wird warm -> ausgesendete Wärmestrahlung von infrarot nach rot nach blau nach weiß
 
 
-2. An Sauerstoff brennt es durch, #warum?
-   Stickstoff wirkt als Schutzgas-> kein Sauerstoff.
+2. An Sauerstoff brennt es durch, #warum? ##Oxidation und Evaporation
+   Stickstoff wirkt als Schutzgas-> kein Sauerstoff. ##auch Ar, Kr, Xe
 ---
 ---
 ## Aufbau-Bericht
@@ -40,50 +40,51 @@ Alle Fragen werden auch gesprochen
 Szene 1  `Aufmacher`: Zwei Glühlamben: 
 eine LED- Lampe; eine Glühdrathtlampe
     * Beide in Zeitlupe syncron kaputt machen.
-    **Dramatische Musik, einige Sekunden in Zeitlupe mit Kamera1**
+    **Dramatische Musik, einige Sekunden in Zeitlupe mit Kamera1** #welche Musik?
  ---    
 Szene 2 `Infoblock a)`
-Frage: warum geht die eine kaputt, und die andere leuchtet immernoch? **anim:text wird mit 90% opacity über das zeitlupevideo gelegt**
+Frage: warum leuchtet die eine Lampe weiter und die andere nicht? **anim:text wird mit 90% opacity über das zeitlupevideo gelegt**
 ---
 Szene 3 `O-Ton a)` 
 
-* *Um diese Frage zu klären besuchen wir das erste Physikalische Institut der Universität Göttingen. Hier wird an ultraschnellen Lichtphänomenen geforscht.*
-* Mit Frau Dr. Sabine Steil wollen wir zunächst verstehen, unter welchen Bedingungen Materialen zum Leuchten gebracht werden können.
+* Um diese Frage zu klären besuchen wir das erste Physikalische Institut der Universität Göttingen. **im Zeitraffer ins Labor** Hier wird an ultraschnellen Lichtphänomenen geforscht. **im Zeitraffer in den SR**
+* Mit Dr. Sabine Steil wollen wir zunächst verstehen, unter welchen Bedingungen Materialen zum Leuchten gebracht werden können.
 * Fragen an Sabine Steil: 
 * Warum leuchtet die Glühbirne?
-    * Im groben: Die Lampe leuchtet des ###   Gesetzes, dies besagt ###
-    * Alles was warm ist, strahlt auch Licht ab.
+    * Im groben: Die Lampe leuchtet AUFGRUND DES PLANCKSCHEN STRAHLUNGSGESETZES (?), dies GIBT DIE FARBE DES LICHTES EINES HEIẞEN OBJEKTS AN
+    * Alles was warm ist, strahlt auch Licht ab. #Bemerkung: alle Objekte strahlen EM-Strahlung ab. Bei wärmeren Objekten liegt die Wärmestrahlung im sichtbaren Spektrum
     **Kameraeinstellung: Sabine sitzt rechts,
-      damit links Platz für Bilder ist**
+       damit links Platz für Bilder ist**
         * Herdplatte (**Bild zeigen**)
         * Sonne (**Bild zeigen**)
         * Glühlampe (**Bild zeigen**)
 
 ---
 Szene 4 `Infoblock b)`
-* Zurück zum Anfnag... **Nur die Glübirne, kurz, genau der Augenblick der Zerstörung**
-* Doch warum brennt der Draht beim Zerbrechen des Glases durch? (**Wichtig: Es muss sichtbar sein, dass nur das Glas kaputt geht**)
-* *Nun wissen wir, warum der Draht leuchtet. Doch warum 
-*Dafür machen wir ein Experiment, dazu benutzen wir Glühbirnen, bei denen das Glas leicht zu entfernen ist.
-* **Zeige zwei Glühbirnen nebeneinander**
-*Dafür machen wir ein Experiment und benutzen zwei identische Glühdrahtlampen*
+* **Nur die Glübirne, kurz, währed der Zerstörung**
+* *Spreche diesen Text vor der Zerstörung* Nun wissen wir warum der Draht leuchtet 
+* *Spreche diesen Text während oder nach der Zerstörung* Doch warum erlischt er beim Zerschlagen des Glaskolbens? (**Wichtig: Es muss sichtbar sein, dass nur das Glas kaputt geht**)
+* **Zeige zwei Glühbirnen nebeneinander. Übergang mit ausfaden.**
+* *Während ausfaden sprechen* Dafür führen wir ein Experiment durch und benutzen zwei identische Glühdrahtlampen*
 * **beide ein uns ausschalten**
  *Bei dieser speziellen Lampenform, lässt sich der Glaskolben gut entfernen, ohne den Glühdraht zu beschädigen.*
 * **beide in der Schraubzwinge knacken**
 * Dabei folgende Abfolge:
     * 00 , 0S, 0X , SX, XX. (**jeweils 0.5 sek**)
-    
-* *Wie wir gesehen haben, scheint der Draht an Luft kaputt zu gehen.*
-  *Daher wollen wir nun testen, wie der Draht sich in einer anderen Umgebung verhällt.
-* **Nun: XX an den Transformator anschließen,
- dabei wichtig: eine in Sauerstoffatmosphäre, die andere in Stickstoffatmosphäre**
-* **Zu sehen: die eine brennt durch, die andere bleibt heile**
-* **Die heile aus dem Fülssigen Stickstoff ziehen, bis zum Gas** *Wie erwartet brennt der Glühdraht an Luft durch, aber wir sehen, dass der Draht im flüssigen Stickstoff weiter leuchtet. Auch wenn wir im Stickstoffgas sind, können wir weiter das Leuchten sehen.*
-* **Nun: Messen mit Sauerstoffmessergerät, erst an Luft, dann in der Stickstoffatmosphäre, anim: Sauerstoffgehalt über Zeit** 
+* **Zeige aufbau in 5/6 Szenen jeweils 0.5 sek**
+* Wie wir gesehen haben, scheint der Draht an Luft kaputt zu gehen.
+  Daher wollen wir nun testen, wie der Draht sich in einer anderen Umgebung verhällt.
+* **Nun: XX an den Transformator anschließen, dabei wichtig: eine in Sauerstoffatmosphäre, die andere in Stickstoffatmosphäre**
+* **Zu sehen: die eine brennt durch, die andere bleibt heile** Wie erwartet brennt der Glühdraht an Luft durch, während der andere Draht im flüssigen Stickstoff weiter leuchtet.
+* **rausziehen bis ins Gas** Auch außerhalb der Flüssigkeit leuchtet das Draht weiter
+* **rausziehen bis in die Luft** Erst wenn der Draht koplett auerhalb des Gefäßes ist, hört er auf zu leuchten
+* **Nun: Messen mit Sauerstoffmessergerät, erst an Luft, dann in der Stickstoffatmosphäre, anim: Sauerstoffgehalt über Zeit** Um dieses Phänomen zu verstehen, messen wir den Sauerstoffgehalt in der Umgebung. **messen und Animation einblenden**
+
 ---
 Szene 5  `O-Ton b) `
 * Sabine Steil:
-    * **ani:Warum brennt der Glühdraht in Sauerstoffumgebung durch?** 
+    * **ani:Warum brennt der Glühdraht in Sauerstoffumgebung durch?**
+"#hier noch ein paar Animationen ???"
 
 
 
@@ -118,7 +119,7 @@ Szene 7 `Fazit`
 * Schwarze Box organisieren
 Theorie:
 warum brennt der Draht durch?
-Bilder für Solarzelle und LED überlegen.
+* möglicherweise Animationen für Szene 5? Szenen 6 und 7 fehlen noch komplett
 
 * Fr: 
     * Sabine reden
@@ -151,6 +152,8 @@ Glühdrahtlampen
 Schwarzraumstrahlung
 Halbleiter,
 Glüememisson
+Plancksches Strahlungsgesetz
+
 ## Fragen an Sabine:
 
 ## Teil 1:
